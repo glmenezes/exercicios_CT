@@ -7,5 +7,17 @@ def exec01():
 
   print(f"Seu nome é '{nome}' e seu sexo é '{sexo}'")
 
+def exec02():
+  #2) Elaborar um programa que pergunte quatro valores inteiros e apresente 2 resultados:
+  #a) Resultado de suas adições
+  #b) Resultado de suas multiplicações
+  soma = 0
+  mult = 1
 
-exec01()
+  for i in range(4):
+    n = int(input("Digite um número: "))
+    soma += n
+    mult *= n
+  
+  print(f"A soma dos números é {soma}.")
+  print(f"A multiplicação dos números é {mult}.")
