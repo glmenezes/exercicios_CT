@@ -21,3 +21,15 @@ def exec02():
   
   print(f"A soma dos números é {soma}.")
   print(f"A multiplicação dos números é {mult}.")
+
+
+print('''
+###########
+Escolha qual exercício deseja executar:
+1- Imprime infos
+2- Calcula soma e mult
+''')
+quest = int(input())
+
+if quest == 1: exec01()
+if quest == 2: exec02()
